@@ -21,7 +21,7 @@ We recommend modifying variables such as the colors contained in `_colors.scss` 
 
 ### Autoprefixer for SASS
 
-GMRUI uses [Autoprefixer](https://github.com/postcss/autoprefixer) to deal with CSS vendor prefixes. If you're compiling GMRUI from its Sass source and not using our full release, you'll need to integrate Autoprefixer into your build process yourself. We use [CodeKit](https://incident57.com/codekit/) by [bdkjones]http://twitter.com/bdkjones.
+GMRUI uses [Autoprefixer](https://github.com/postcss/autoprefixer) to deal with CSS vendor prefixes. If you're compiling GMRUI from its Sass source and not using our full release, you'll need to integrate Autoprefixer into your build process yourself. We use [CodeKit](https://incident57.com/codekit/) by [bdkjones](http://twitter.com/)bdkjones.
 
 ### Normalize.css
 
