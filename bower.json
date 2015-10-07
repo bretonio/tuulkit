@@ -5,6 +5,10 @@
   "authors": [
     "Matt Litherland http://github.com/mattsince87"
   ],
+  "main": [
+    "fonts/",
+    "scss/"
+  ],
   "description": "GMRUI FrontEnd SASS Framework for Gamers",
   "keywords": [
     "css",
