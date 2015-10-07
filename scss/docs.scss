@@ -1,0 +1,232 @@
+//  GMR UI
+//  Documentation
+//
+
+// Frameworks
+//
+@import 'normalize';
+@import 'susy';
+@import 'gmrui';
+
+// Docs Variables
+//
+$dark: #212335;
+
+// Google Fonts
+//
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,300);
+
+body {
+  font-family: "Roboto", sans-serif;
+  @include font-smoothing;
+  background: darken($theme,5%);
+}
+
+// Code & HighlightJS
+//
+code.hljs {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+  line-height: 1.5em;
+  background: #fcfcfc;
+  padding: 1.6em;
+  border-radius: 2px;
+  border:1px solid #ddd
+}
+
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  // Structure
+  //
+  &.structure {
+    background: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1.4;
+    border-radius: 5px;
+    // Highlight
+    //
+    b {
+      color: $red;
+    }
+  }
+}
+
+// Name
+//
+a.name span {
+  display: inline-block;
+  float: left;
+  width: 70px;
+  height: 30px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url(../img/logo.png) 0 0 no-repeat;
+  background-size: cover;
+}
+
+// Nav Bar
+//
+.nav-wrapper,
+.nav-bar {
+  background: $theme;
+}
+
+// Typography
+//
+p.doc-helper {
+  margin: 1em 0 .25em;
+  text-transform: uppercase;
+}
+
+// Doc Navs
+//
+.doc .nav-bar {
+  margin-bottom: 1em;
+}
+
+// Doc Helper
+//
+.doc-example {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-bottom: 15px;
+  // Cols
+  //
+  &.span-6 {
+    @include span(6 of 12);
+    &:nth-child(2n+2) {
+      @include span(6 of 12 last);
+      clear: none;
+    }
+  }
+}
+
+// Documentation
+//
+.doc-hero {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 130px;
+  background: darken($theme,15%);
+  border-bottom: 5px solid darken($theme,5%);
+  text-align: center;
+  color: #fff;
+  img {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    background: transparent;
+    border: none;
+  }
+  h1 {
+    font-size: 38px;
+    margin-bottom: 6px;
+    color: white;
+  }
+  cite {
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+  }
+  iframe {
+    margin: 15px 5px;
+  }
+  .g {
+    font-weight: bold;
+    color: $theme;
+  }
+}
+
+// Footer
+//
+footer.section {
+  float: left;
+  clear: both;
+  width: 100%;
+  background: darken($dark,0%);
+  // background: #2a2a2a;
+  color: #fff;
+  padding: 50px 0;
+  // Columns
+  //
+  .col {
+    @include span(6 of 12);
+    &:last-child {
+      @include span (6 of 12 last);
+    }
+  }
+  // Typography
+  //
+  h1, h2, h3, h4, p {
+    color: lighten($dark,25%);
+  }
+  .heading {
+    border-color: lighten($dark,5%);
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+  }
+  ul li {
+    margin: initial;
+    &:after {
+      content: "\2013";
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+    &:last-child:after {
+      content: "";
+      margin: 0;
+    }
+  }
+}
+
+// Font Icon Demo
+//
+ul.font-icon-demo {
+  float: left;
+  clear: both;
+  width: 100%;
+  // List Item 
+  //
+  li {
+    @include span(2 of 12);
+    list-style-type: none;
+    background: #eee;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 2px;
+    // Last In Row
+    //
+    &:nth-child(6n+6) {
+      @include span(2 of 12 last);
+    }
+    // Icons
+    //
+    [class*=icon-]{
+      color: lighten($night,20%);
+      font-size: 32px;
+      text-shadow: 1px 1px 1px #fff;
+    }
+  }
+}
+
+// Aside
+//
+.docs-aside {
+  @include span(3 of 12);
+}
+
+// Document Containment
+//
+.doc {
+  @include span(9 of 12 last);
+  background: #fff;
+  padding: 32px 20px;
+}
