@@ -12,5 +12,5 @@ Find the main repository files on the [gh-pages](https://github.com/gmrgo/gmrui/
 
 GMRUI can be installed using the **git clone** method or by using **bower**.
 
-* `bower install gmrui --save`
+* `bower install gmrui`
 * `git clone git@github.com:gmrgo/gmrui.git`
