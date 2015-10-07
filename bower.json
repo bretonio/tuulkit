@@ -1,0 +1,26 @@
+{
+  "name": "GMRUI",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gmrgo/gmrui",
+  "authors": [
+    "Matt Litherland http://github.com/mattsince87"
+  ],
+  "description": "GMRUI FrontEnd SASS Framework for Gamers",
+  "keywords": [
+    "css",
+    "sass",
+    "framework",
+    "front",
+    "end",
+    "front-end",
+    "web"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".gitignore",
+    "tests"
+  ]
+}
