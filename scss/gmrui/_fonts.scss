@@ -1,0 +1,65 @@
+//  GMR UI
+//  Fonts
+//
+
+@font-face {
+  font-family: 'gmrui-icons';
+  src:url('../fonts/gmrui-icons.eot?20g8mf');
+  src:url('../fonts/gmrui-icons.eot?#iefix20g8mf') format('embedded-opentype'),
+      url('../fonts/gmrui-icons.ttf?20g8mf') format('truetype'),
+      url('../fonts/gmrui-icons.woff?20g8mf') format('woff'),
+      url('../fonts/gmrui-icons.svg?20g8mf#gmrui-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'gmrui-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  @include font-smoothing;
+}
+
+.icon-error:before { content: "\e000";}
+.icon-warning:before { content: "\e002";}
+.icon-loop:before { content: "\e00e";}
+.icon-replay:before { content: "\e025";}
+.icon-comment:before { content: "\e048";}
+.icon-flag:before { content: "\e077";}
+.icon-forward:before { content: "\e078";}
+.icon-place:before { content: "\e1f7";}
+.icon-cancel:before { content: "\e205";}
+.icon-more_vert:before { content: "\e210";}
+.icon-refresh:before { content: "\e211";}
+.icon-notifications:before { content: "\e24a";}
+.icon-public:before { content: "\e258";}
+.icon-delete:before { content: "\e287";}
+.icon-get_app:before { content: "\e298";}
+.icon-label:before { content: "\e2a6";}
+.icon-lock:before { content: "\e2ab";}
+.icon-settings:before { content: "\e2cb";}
+.icon-heart2:before { content: "\e603";}
+.icon-users:before { content: "\e251";}
+.icon-user:before { content: "\e253";}
+.icon-heart:before { content: "\e291";}
+.icon-star:before { content: "\e299";}
+.icon-pin:before { content: "\e2c8";}
+.icon-visibility:before { content: "\e306";}
+.icon-stats-growth:before { content: "\eb8f";}
+.icon-stats-decline:before { content: "\eb90";}
+.icon-paypal2:before { content: "\eca2";}
+.icon-google-plus:before { content: "\eee4";}
+.icon-facebook:before { content: "\eee8";}
+.icon-twitter:before { content: "\eeed";}
+.icon-youtube:before { content: "\eef3";}
+.icon-twitch:before { content: "\eef7";}
+.icon-vimeo:before { content: "\eef8";}
+.icon-steam:before { content: "\ef09";}
+.icon-skype:before { content: "\ef22";}
+.icon-linkedin:before { content: "\ef24";}
+.icon-search:before { content: "\e601";}
+
