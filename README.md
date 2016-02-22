@@ -1,8 +1,8 @@
-# GMRUI 
+# GMRUI [Documentation](http://gmrui.com)
 
 The GMRUI (or GamerGo UI) is a Responsive Front-End Framework built with [SASS](http://sass-lang.com/). It is curated by [Matt Litherland](http://twitter.com/mattsince87) and maintained by the GMRGO Development Team. We welcome any collaborators to create their own forks and raise issues.
 
-* [Documentation](http://gmrgo.github.io/gmrui/) hosted with [GitHub Pages](http://pages.github.com)
+* [View Documentation](http://gmrui.com)
 
 ## Documentation & Repository
 
