@@ -6,7 +6,7 @@ The GMRUI (or GamerGo UI) is a Responsive Front-End Framework built with [SASS](
 
 ## Documentation & Repository
 
-Find the main repository files on the [gh-pages](https://github.com/gmrgo/gmrui/tree/gh-pages) branch of this project. View the [documentation](http://gmrgo.github.io/gmrui/).
+Find the main repository files on the [master](https://github.com/gmrgo/gmrui/tree/master) branch of this project. View the [documentation](http://gmrgo.github.io/gmrui/).
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ GMRUI can be installed using the **git clone** method or by using **bower**.
 
 ### Customising GMRUI
 
-We recommend modifying variables such as the colors contained in `_colors.scss` and then styling overrides in an additional stylesheet such as `_theme.scss`.
+We recommend modifying variables such as those contained in `_colors.scss` and then styling overrides in an additional stylesheet such as `_theme.scss`.
 
 ### Autoprefixer for SASS
 
