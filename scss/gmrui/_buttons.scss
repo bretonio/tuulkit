@@ -8,11 +8,11 @@ input[type="submit"],
 button {
   display: inline-block;
   margin-bottom: 5px;
-  font-family: inherit;
+  font-family: $heading-font;
   font-weight: 700;
   font-size: .86em;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: initial;
   line-height: .86em;
   @include font-smoothing;
   border: none;
@@ -20,86 +20,93 @@ button {
   padding: 0.65em 1em 0.75em;
   color: #fff;
   transition: all 0.2s ease-in-out;
+
+  // Square
+  //
+  &.btn-sq {
+    padding: 1em;
+  }
+  
+  // Hover
+  //
   &:hover {
     text-decoration: none; // Removes <a> text decorations
   }
-}
 
-a.btn-lg,
-.btn-lg {
-  font-size: 1em;
-  padding: 1em 1.65em 1.05em;}
-
-a.btn-sm,
-.btn-sm,
-a.btn-xs,
-.btn-xs {
-  font-size: .85em;
-  padding: .5em 1em .6em;}
-
-a.btn-xs,
-.btn-xs {
-  font-size: .65em;
-  padding: .55em .75em .45em;}
-
-// Colors
-@mixin btn($btncolor){
-  box-shadow: inset 0 2px 0 rgba(black,0.1);
-  background: $btncolor;
-  &:hover {
-    background: darken($btncolor,5%);
-  }
-}
-
-.btn-default, .btn { @include btn($theme)}
-.btn-primary { @include btn($theme)}
-.btn-success { @include btn($green)}
-.btn-info    { @include btn($blue)}
-.btn-danger  { @include btn($red)}
-.btn-warning { @include btn($yellow)}
-
-// Social
-//
-
-$facebook:    #3c689f; // facebook
-$twitter:     #3b89b1; // twitter
-$vimeo:       #3580c5; // vimeo
-$skype:       #369cc6; // skype
-$youtube:     #d14747; // youtube
-$steam:       #444444; // steam
-$linkedin:    #558ec9; // linkedin
-$twitch:      #6441a5; // twitch
-
-.btn-social-facebook   { @include btn($facebook)}
-.btn-social-twitter    { @include btn($twitter)}
-.btn-social-vimeo      { @include btn($vimeo)}
-.btn-social-skype      { @include btn($skype)}
-.btn-social-youtube    { @include btn($youtube)}
-.btn-social-steam      { @include btn($steam)}
-.btn-social-linkedin   { @include btn($linkedin)}
-.btn-social-twitch     { @include btn($twitch)}
-
-[class*="btn-social-"],
-a[class*="btn-social-"],
-input[class*="btn-social-"],
-button[class*="btn-social-"] {
-  padding: 0.65em 1em 0.75em;
-  font-size: 16px;
-  padding: .9em 1em;
-  color: #fff;
   // Large
+  //
   &.btn-lg {
-    font-size: 20px;
-    padding: 1em 1em 1.05em;
+    font-size: 1em;
+    padding: 1em 1.65em 1.05em;
+    // Square
+    //
+    &.btn-sq {
+      padding: 1.4em;
+    }
   }
+  
   // Small
+  //
   &.btn-sm {
-    font-size: 16px;
-    padding: .5em;
+    font-size: .85em;
+    padding: .5em 1em .6em;
+    // Square
+    //
+    &.btn-sq {
+      padding: .55em;
+    }
   }
+  
   // Extra Small
+  //
   &.btn-xs {
-    font-size: 16px;
-    padding: .4em;
+    font-size: .65em;
+    padding: .55em .75em;
+    // Square
+    //
+    &.btn-sq {
+      padding: .55em;
+    }
   }
+
+  // Theme Mixin
+  //
+  @mixin btn($btncolor){
+    box-shadow: inset 0 -2px 0 rgba(black,0.25);
+    background: $btncolor;
+    &:hover {
+      background: darken($btncolor,5%);
+    }
+  }
+  
+  // ThemeColors
+  //
+  &.btn         { @include btn($theme)}
+  &.btn-default { @include btn($theme)}
+  &.btn-primary { @include btn($theme)}
+  &.btn-success { @include btn($green)}
+  &.btn-info    { @include btn($blue)}
+  &.btn-danger  { @include btn($red)}
+  &.btn-warning { @include btn($yellow)}
+
+  // Social Colors
+  //
+
+  $facebook:    #3c689f; // facebook
+  $twitter:     #3b89b1; // twitter
+  $vimeo:       #3580c5; // vimeo
+  $skype:       #369cc6; // skype
+  $youtube:     #d14747; // youtube
+  $steam:       #444444; // steam
+  $linkedin:    #558ec9; // linkedin
+  $twitch:      #6441a5; // twitch
+
+  &.btn-facebook   { @include btn($facebook)}
+  &.btn-twitter    { @include btn($twitter)}
+  &.btn-vimeo      { @include btn($vimeo)}
+  &.btn-skype      { @include btn($skype)}
+  &.btn-youtube    { @include btn($youtube)}
+  &.btn-steam      { @include btn($steam)}
+  &.btn-linkedin   { @include btn($linkedin)}
+  &.btn-twitch     { @include btn($twitch)}
 }

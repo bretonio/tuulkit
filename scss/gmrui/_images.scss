@@ -3,12 +3,17 @@
 //
 
 img {
+  
   display: block;
-  background: #fff;
-  padding: 4px;
-  border: 1px solid #ddd;
-  margin: 10px auto;
-  clear: both;
+  margin: 0 auto;
+  
+  // Basic
+  //
+  &.basic {
+    background: #fff;
+    padding: 4px;
+    border: 1px solid #ddd;
+  }
 
   // Pull Left
   //

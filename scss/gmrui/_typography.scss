@@ -2,23 +2,34 @@
 //  Typography
 //
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+$heading-font : "Roboto Condensed", sans-serif;
+$theme-font   : "Roboto", sans-serif;
+
+// Body
+//
+body {
+  font-family: $theme-font;
+}
+
 // Links
 //
+a {
+  color: $blue;
+}
+
 a,
 a:link,
 a:active,
 a:focus {
-  color: $blue;
   text-decoration: none;
   outline: none;
   // Hover
   //
   &:hover {
     text-decoration: underline;
-  }
-  // Visited
-  &:visited {
-    color: $blue;
   }
 }
 
@@ -29,7 +40,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: inherit;
+  font-family: $heading-font;
   font-weight: 700;
   @include font-smoothing;
   line-height: 1.4em;

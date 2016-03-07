@@ -1,0 +1,33 @@
+//  GMRUI: Mixin
+//  Aspect Ratio
+//
+
+$default-aspect-width  : 16;
+$default-aspect-height : 9;
+
+@mixin aspect-ratio($width: $default-aspect-width, $height: $default-aspect-height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($default-aspect-height / $default-aspect-width) * 100%;
+  }
+  > .content {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    > iframe,
+    > video {
+      height: auto;
+      max-height: auto;
+      max-width: 100%;
+      width: auto;
+    }
+  }
+}
