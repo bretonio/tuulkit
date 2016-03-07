@@ -1,0 +1,56 @@
+//  GMR UI
+//  Tables
+//
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  // Cells
+  //
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: .75rem;
+        line-height: 1;
+        vertical-align: top;
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        text-align: left;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 14px;
+        @include font-smoothing();
+        // Last Cell
+        //
+        &:last-child {
+          border-right: 1px solid #ddd;
+        }
+      }
+      // Header Cells
+      //
+      > th {
+        font-weight: bold;
+      }
+    }
+  }
+  // Header Styles
+  //
+  > thead {
+    tr {
+      th {
+        border-top: 1px solid #ddd;
+        border-bottom: 2px solid #ddd;
+      }
+    }
+  }
+  // Striped Rows
+  //
+  > tbody tr:nth-of-type(odd) {
+    background: #f9f9f9;
+  }
+
+}
