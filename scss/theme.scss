@@ -1,4 +1,4 @@
-//  GMR UI
+//  GMRUI
 //  Theme
 //
 
@@ -8,8 +8,8 @@
 @import 'susy';
 @import 'gmrui';
 
-// Your Styles
-//
-// - We suggest creating a theme directory and importing your styles
-//   using the @import 'theme/stylesheet';
+// Theme Files
+// - Import your theme files below using @import 'theme/yourfile';
+//   Remember to use the "_" prefix so SASS does not compile each
+//   file individually.
 //

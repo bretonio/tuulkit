@@ -3,16 +3,7 @@
 
 $(document).ready(function () {
 
-  // Mobile Menu
+  // Your Functions Below
   //
-  function mobileMenu() {
-    $('.nav-ctrl').click(function(event){
-      // Prevent Jump
-      event.preventDefault(); 
-      //Toggle Class
-      $("#sidemenu").toggleClass("visible");  
-    });
-  }
-  mobileMenu();
 
 });

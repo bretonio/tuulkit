@@ -3,7 +3,7 @@
 //
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,300);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,500,600700);
 
 $heading-font : "Roboto Condensed", sans-serif;
 $theme-font   : "Roboto", sans-serif;
@@ -84,7 +84,7 @@ h5 { @include heading-text(16px);}
 p {
   display: block;
   font-family: inherit;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1em;
   @include font-smoothing;
   color: lighten($night,10%);

@@ -240,7 +240,8 @@ form.inline {
 
 // Search Forms
 //
-form.search {
+form.search, 
+div.search {
   float: left;
   position: relative;
   width: 100%;
@@ -249,12 +250,15 @@ form.search {
   // Items
   //
   input[type="text"],
+  input[type="email"],
   input[type="search"],
+  input[type="submit"],
   button {
     display: inline-block;
     margin: 0;
   }
   input[type="text"],
+  input[type="email"],
   input[type="search"] {
     width: 100%;
     vertical-align: top;
@@ -298,6 +302,7 @@ form.search {
   // Focussed
   //
   input[type="text"]:focus,
+  input[type="email"]:focus,
   input[type="search"]:focus {
     border-right-color: transparent;
     box-shadow: none;

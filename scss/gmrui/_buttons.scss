@@ -17,7 +17,7 @@ button {
   @include font-smoothing;
   border: none;
   outline: none;
-  padding: 0.65em 1em 0.75em;
+  padding: 0.65em 1em;
   color: #fff;
   transition: all 0.2s ease-in-out;
 
@@ -37,7 +37,7 @@ button {
   //
   &.btn-lg {
     font-size: 1em;
-    padding: 1em 1.65em 1.05em;
+    padding: 1em 1.65em;
     // Square
     //
     &.btn-sq {
@@ -49,7 +49,7 @@ button {
   //
   &.btn-sm {
     font-size: .85em;
-    padding: .5em 1em .6em;
+    padding: .5em 1em;
     // Square
     //
     &.btn-sq {
@@ -91,7 +91,6 @@ button {
 
   // Social Colors
   //
-
   $facebook:    #3c689f; // facebook
   $twitter:     #3b89b1; // twitter
   $vimeo:       #3580c5; // vimeo
@@ -109,4 +108,27 @@ button {
   &.btn-steam      { @include btn($steam)}
   &.btn-linkedin   { @include btn($linkedin)}
   &.btn-twitch     { @include btn($twitch)}
+
+  // Glass Mixin
+  //
+  @mixin btn-glass($btncolor){
+    box-shadow: inset 0 0 0 2px $btncolor;
+    background: rgba($btncolor,.2);
+    &:hover {
+      background: rgba($btncolor,.5);
+    }
+  }
+
+  // Glass Button
+  //
+  &.btn-glass {
+    @include btn-glass(#fff);
+    // Themes
+    //
+    &.btn-primary { @include btn-glass($theme)}
+    &.btn-success { @include btn-glass($green)}
+    &.btn-info    { @include btn-glass($blue)}
+    &.btn-danger  { @include btn-glass($red)}
+    &.btn-warning { @include btn-glass($yellow)}
+  }
 }
