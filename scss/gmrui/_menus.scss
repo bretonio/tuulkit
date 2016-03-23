@@ -1,0 +1,91 @@
+//  GMRUI
+//  Menus
+//
+
+.dropdown-toggle {
+  // After
+  //
+  &:after {
+    font-family: "sans-serif";
+    content: "▾";
+    color: #fff;
+    margin-left: 6px;
+    position: relative;
+    top: -1px;
+    margin-left: 8px;
+  }
+  img {
+    display: inline;
+    margin-right: 8px;
+    vertical-align: bottom;
+  }
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  text-align: left;
+  list-style: none;
+  font-size: 16px;
+  background: darken($theme,5%);
+  background-clip: padding-box; 
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  
+  > li {
+    float: left;
+    clear: both;
+    width: 100%;
+    white-space: nowrap;
+    margin: 0;
+      
+    input[type="radio"]{
+      display: none;
+    }
+    
+    > label,
+    > a {
+      display: block;
+      padding: .5em .75em;
+      margin: 0;
+      clear: both;
+      font-size: .9em;
+      font-weight: 500;
+      line-height: 1.42857143;
+      color: #fff;
+      text-transform: none;
+      white-space: nowrap;
+      
+      &:hover {
+        background: darken($theme, 10%);
+        text-decoration: none;
+      }
+      
+      > img {
+        float: left;
+        vertical-align: middle;
+        padding: 0;
+        margin: 0 5px 0 0;
+        border: none;
+        background: transparent;
+      }
+    }
+    
+    &.divider {
+      height: 1px;
+      margin: 5px 0;
+      overflow: hidden;
+      background-color: $theme;
+    }
+  }
+}
+
+.open > .dropdown-menu {
+  display: block;
+}

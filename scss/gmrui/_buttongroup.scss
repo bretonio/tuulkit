@@ -1,11 +1,11 @@
-//  GMR UI
+//  GMRUI
 //  Button Groups
 //
 
-.button-group {
+.btn-group {
+  position: relative;
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  vertical-align: middle;
 
   // List
   ul {

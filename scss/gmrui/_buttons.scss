@@ -69,6 +69,12 @@ button {
     }
   }
 
+  // Button Toggle
+  //
+  &.dropdown-toggle {
+    margin-bottom: 0;
+  }
+
   // Theme Mixin
   //
   @mixin btn($btncolor){

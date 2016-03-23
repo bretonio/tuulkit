@@ -1,17 +1,13 @@
-//  GMRUI
-//  Components
+//  GMR UI
+//  Setup
 //
 
-// Import GMRUI Components
-//
 // @codekit-prepend "_modals.js";
 // @codekit-prepend "_dropdowns.js";
+// @codekit-prepend "_menus.js";
 
 $(document).ready(function () {
-
-  // Fire up your functions!
-  //
   gmruiModals();
   gmruiDropdowns();
-
+  gmruiMenus();
 });
