@@ -5,7 +5,7 @@ function gmruiModals(){
   $("body").click(function(event){
     $("body").removeClass("modal-open");
     var container = $(".modal");
-    var vidURL = container.find("iframe").attr('data-target');
+    var vidURL = container.find("iframe").attr('src');
     if (!container.is(event.target) && container.has(event.target).length === 0){
       container.closest(".modal-wrap").addClass("closed").removeClass("open");
       container.find("iframe").attr('src','');
