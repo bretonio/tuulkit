@@ -2,7 +2,7 @@
 //
 
 function gmruiDropdowns(){
-  $("li.dropdown a").click(function(event){
+  $("li.dropdown > a").click(function(event){
     event.preventDefault();
     event.stopPropagation();
     if ($("li.dropdown").hasClass("open")) {
