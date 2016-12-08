@@ -11,7 +11,7 @@ $default-aspect-height : 9;
     display: block;
     content: "";
     width: 100%;
-    padding-top: ($default-aspect-height / $default-aspect-width) * 100%;
+    padding-top: ($height / $width) * 100%;
   }
   > .content {
     width: 100%;
