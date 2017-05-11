@@ -168,14 +168,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_alerts.scss": {
+	"\/scss\/framework\/_alerts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_alerts.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_alerts.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_alerts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -184,14 +184,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_breadcrumbs.scss": {
+	"\/scss\/framework\/_breadcrumbs.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_breadcrumbs.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_breadcrumbs.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_breadcrumbs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -200,14 +200,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_buttongroup.scss": {
+	"\/scss\/framework\/_buttongroup.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_buttongroup.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_buttongroup.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_buttongroup.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -216,14 +216,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_buttons.scss": {
+	"\/scss\/framework\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_buttons.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_buttons.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -232,14 +232,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_config.scss": {
+	"\/scss\/framework\/_config.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_config.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_config.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_config.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -248,14 +248,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_forms.scss": {
+	"\/scss\/framework\/_forms.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_forms.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_forms.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_forms.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -264,14 +264,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_globals.scss": {
+	"\/scss\/framework\/_globals.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_globals.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_globals.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_globals.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -280,14 +280,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_media.scss": {
+	"\/scss\/framework\/_media.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_media.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_media.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -296,14 +296,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_mixins.scss": {
+	"\/scss\/framework\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_mixins.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_mixins.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -312,14 +312,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_modals.scss": {
+	"\/scss\/framework\/_modals.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_modals.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_modals.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_modals.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -328,14 +328,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_pagination.scss": {
+	"\/scss\/framework\/_pagination.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_pagination.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_pagination.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_pagination.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -344,14 +344,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_skeleton.scss": {
+	"\/scss\/framework\/_skeleton.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_skeleton.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_skeleton.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_skeleton.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -360,14 +360,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_switches.scss": {
+	"\/scss\/framework\/_switches.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_switches.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_switches.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_switches.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -376,14 +376,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_tables.scss": {
+	"\/scss\/framework\/_tables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_tables.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_tables.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_tables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -392,14 +392,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/_typography.scss": {
+	"\/scss\/framework\/_typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/_typography.scss",
+		"inputAbbreviatedPath": "\/scss\/framework\/_typography.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -408,15 +408,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/mixins\/_aspectratios.scss": {
+	"\/scss\/framework\/mixins\/_aspectratios.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/mixins\/_aspectratios.scss",
-		"outputAbbreviatedPath": "\/scss\/gmrui\/css\/_aspectratios.css",
+		"inputAbbreviatedPath": "\/scss\/framework\/mixins\/_aspectratios.scss",
+		"outputAbbreviatedPath": "\/scss\/framework\/css\/_aspectratios.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -424,15 +424,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/mixins\/_breakpoints.scss": {
+	"\/scss\/framework\/mixins\/_breakpoints.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/mixins\/_breakpoints.scss",
-		"outputAbbreviatedPath": "\/scss\/gmrui\/css\/_breakpoints.css",
+		"inputAbbreviatedPath": "\/scss\/framework\/mixins\/_breakpoints.scss",
+		"outputAbbreviatedPath": "\/scss\/framework\/css\/_breakpoints.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -440,15 +440,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/mixins\/_clearfix.scss": {
+	"\/scss\/framework\/mixins\/_clearfix.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/mixins\/_clearfix.scss",
-		"outputAbbreviatedPath": "\/scss\/gmrui\/css\/_clearfix.css",
+		"inputAbbreviatedPath": "\/scss\/framework\/mixins\/_clearfix.scss",
+		"outputAbbreviatedPath": "\/scss\/framework\/css\/_clearfix.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -456,15 +456,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/gmrui\/mixins\/_font-smoothing.scss": {
+	"\/scss\/framework\/mixins\/_font-smoothing.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/gmrui\/mixins\/_font-smoothing.scss",
-		"outputAbbreviatedPath": "\/scss\/gmrui\/css\/_font-smoothing.css",
+		"inputAbbreviatedPath": "\/scss\/framework\/mixins\/_font-smoothing.scss",
+		"outputAbbreviatedPath": "\/scss\/framework\/css\/_font-smoothing.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

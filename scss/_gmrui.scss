@@ -2,26 +2,26 @@
 //  Setup 
 //
 
-@import "gmrui/globals";
-@import "gmrui/config";
+@import "framework/globals";
+@import "framework/config";
 
 // Mixins
-@import "gmrui/mixins";
+@import "framework/mixins";
 
 // Layout
-@import "gmrui/skeleton";
+@import "framework/skeleton";
 
 // Typography
-@import "gmrui/typography";
+@import "framework/typography";
 
-@import "gmrui/buttons";
-@import "gmrui/buttongroup";
+@import "framework/buttons";
+@import "framework/buttongroup";
 
 // Helpers
-@import "gmrui/breadcrumbs";
-@import "gmrui/pagination";
-@import "gmrui/forms";
-@import "gmrui/switches";
-@import "gmrui/alerts";
-@import "gmrui/modals";
-@import "gmrui/tables";
+@import "framework/breadcrumbs";
+@import "framework/pagination";
+@import "framework/forms";
+@import "framework/switches";
+@import "framework/alerts";
+@import "framework/modals";
+@import "framework/tables";
