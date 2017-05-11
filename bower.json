@@ -27,6 +27,8 @@
     ".gitignore",
     "tests",
     "README.md",
-    "config.codekit"
+    "config.codekit",
+    ".git/",
+    ".codekit-cache/"
   ]
 }
