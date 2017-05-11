@@ -1,4 +1,4 @@
-//  GMR UI
+//  GMRUI
 //  Forms
 //
 
@@ -22,13 +22,12 @@ select {
   width: 100%;
   height: 34px;
   padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
+  font-size: inherit;
+  line-height: 1.4;
   color: #555;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
   transition: border ease-in-out .15s, box-shadow ease-in-out .15s;
 
   // Focus
@@ -37,32 +36,6 @@ select {
     outline: none;
     box-shadow: 0 0 0 3px lighten($blue,30%);
     border-color: $blue;
-  }
-
-  // Angular: Invalid
-  //
-  &.ng-invalid,
-  form.ng-invalid & {
-    outline: none;
-    box-shadow: 0 0 0 3px lighten($red,30%);
-    border-color: $red;
-  }
-
-  // Angular: Valid Pattern
-  //
-  &.ng-valid,
-  form.ng-valid & {
-    outline: none;
-    box-shadow: 0 0 0 3px lighten($green,30%);
-    border-color: $green;
-  }
-
-  // Angular: Touched
-  //
-  &.ng-pristine,
-  form.ng-pristine & {
-    border: 1px solid #ccc;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
   }
 }
 
@@ -169,7 +142,7 @@ input[type="checkbox"] {
 //
 .form-helper {
   margin: 0;
-  font-size: .75em;
+  font-size: .8em;
   line-height: 1.6em;
   padding: 1em 1em 0;
   color: lighten($night,10%);
@@ -178,8 +151,8 @@ input[type="checkbox"] {
 // Labels
 //
 label {
-  font-size: 0.8em;
-  font-weight: bold;
+  font-size: inherit;
+  font-weight: inherit;
   text-transform: uppercase;
   color: #666;
   margin-bottom: 6px;
@@ -314,7 +287,7 @@ div.search {
 
 // Styled Selects
 //
-.select-ryze {
+.select-gmrui {
   float: left;
   position: relative;
   width: 100%;
@@ -326,8 +299,8 @@ div.search {
     height: 32px;
     text-align: center;
     line-height: 32px;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: inherit;
+    font-size: inherit;
     @include font-smoothing;
     content: "\0025BE";
     color: lighten($night,30%);
@@ -347,7 +320,4 @@ div.search {
       text-shadow: 0 0 0 #000;
     }
   }
-}
-
-
-    
+}    
