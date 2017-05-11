@@ -1,6 +1,6 @@
 # GMRUI [Documentation](http://gmrui.com)
 
-The GMRUI is a Responsive Front-End Framework built with [SASS](http://sass-lang.com/). It is curated and maintained by [Matt Litherland](http://twitter.com/mattsince87) and a product of [SINCE87](http://mattsince87.com). We welcome any collaborators to create their own forks and raise issues.
+GMRUI is a Front-End Framework built with [SASS](http://sass-lang.com/). It is curated and maintained by [Matt Litherland](http://twitter.com/mattsince87) and a product of [SINCE87](http://mattsince87.com). We welcome any collaborators to create their own forks and raise issues.
 
 * [View Website](http://gmrui.com)
 
