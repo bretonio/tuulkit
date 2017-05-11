@@ -6,10 +6,10 @@
     "Matt Litherland http://github.com/mattsince87"
   ],
   "main": [
-    "fonts/",
-    "scss/"
+    "scss/",
+    "script/"
   ],
-  "description": "GMRUI FrontEnd SASS Framework for Gamers",
+  "description": "GMRUI FrontEnd SASS Framework",
   "keywords": [
     "css",
     "sass",
@@ -25,6 +25,8 @@
     "node_modules",
     "bower_components",
     ".gitignore",
-    "tests"
+    "tests",
+    "README.md",
+    "config.codekit"
   ]
 }
