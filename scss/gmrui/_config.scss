@@ -8,10 +8,9 @@ $susy:(
   global-box-sizing: border-box
 );
 
-// Global Fonts
+// Default Font Stack
 // 
-$heading-font : Arial, sans-serif;
-$theme-font   : "-apple-system", "BlinkMacSystemFont", "San Francisco", "Roboto", Segoe UI, Helvetica Neue, sans-serif;
+$default-font   : "-apple-system", "BlinkMacSystemFont", "San Francisco", "Roboto", Segoe UI, Helvetica Neue, sans-serif;
 
 //  Icons
 //  https://fortawesome.github.io/Font-Awesome/
@@ -30,4 +29,4 @@ $green:   #1d9d74;
 $blue:    #4693e2;
 $red:     #cb3837;
 $yellow:  #f0a630;
-$night:   #212335;
+$dark:    #121212;
