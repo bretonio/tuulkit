@@ -8,11 +8,16 @@ $susy:(
   global-box-sizing: border-box
 );
 
-// Fonts
+// Global Fonts
 // 
-
-$heading-font : "Roboto Condensed", sans-serif;
+$heading-font : Arial, sans-serif;
 $theme-font   : "-apple-system", "BlinkMacSystemFont", "San Francisco", "Roboto", Segoe UI, Helvetica Neue, sans-serif;
+
+//  Icons
+//  https://fortawesome.github.io/Font-Awesome/
+//  Twitter: @fontawesome
+//
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 
 // Theme Colors
 // 
