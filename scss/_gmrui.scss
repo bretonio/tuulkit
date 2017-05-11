@@ -4,24 +4,25 @@
 
 @import "gmrui/globals";
 @import "gmrui/config";
+
+// Mixins
 @import "gmrui/mixins";
-@import "gmrui/fonts";
+
+// Layout
 @import "gmrui/skeleton";
-@import "gmrui/colors";
+
+// Typography
+@import "gmrui/fonts";
 @import "gmrui/typography";
-@import "gmrui/images";
-@import "gmrui/media";
+
 @import "gmrui/buttons";
 @import "gmrui/buttongroup";
-@import "gmrui/sections";
-@import "gmrui/navbars";
-@import "gmrui/navside";
+
+// Helpers
 @import "gmrui/breadcrumbs";
 @import "gmrui/pagination";
 @import "gmrui/forms";
 @import "gmrui/switches";
 @import "gmrui/alerts";
-@import "gmrui/lists";
 @import "gmrui/modals";
 @import "gmrui/tables";
-@import "gmrui/menus";
