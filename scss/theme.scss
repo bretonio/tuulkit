@@ -8,10 +8,6 @@
 @import 'susy';
 @import 'gmrui';
 
-// Docs Variables
-//
-$dark: #212335;
-
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -19,50 +15,3 @@ body {
   @include font-smoothing;
   background: darken($theme,15%);
 }
-
-// Output Textarea
-//
-textarea.output {
-  position: relative;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 12px;
-  line-height: 1.5em;
-  background: #fff;
-  padding: 1em 1em 4.5em 1em;
-  border-radius: 2px 2px;
-  border:1px solid #ddd;
-  box-sizing: border-box;
-  height: auto;
-}
-
-// Layout
-//
-@import 'gmrui-theme/layout';
-
-// Typography
-//
-@import 'gmrui-theme/typography';
-
-// Code & Highlight JS
-//
-@import 'gmrui-theme/code';
-
-// Nav Bar
-//
-@import 'gmrui-theme/navbar';
-
-// SideNav
-//
-@import 'gmrui-theme/sidenav';
-
-// Documentation Homepage
-//
-@import 'gmrui-theme/hero';
-
-// Footer
-//
-@import 'gmrui-theme/footer';
-
-// Font Icon Demo
-//
-@import 'gmrui-theme/fa-demo';
