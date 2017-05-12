@@ -13,7 +13,7 @@ GMRUI can be installed using the **git clone** method or by using **bower**.
 
 ### Customising GMRUI
 
-We recommend modifying variables such as those contained in `_config.scss` and then styling overrides in an additional stylesheet such as `_theme.scss`.
+We recommend modifying variables such as those contained in `_config.scss` and then overiding default components on a project by project basis.
 
 ### Autoprefixer for SASS
 
@@ -22,6 +22,11 @@ GMRUI uses [Autoprefixer](https://github.com/postcss/autoprefixer) to deal with 
 ### Normalize.css
 
 GMRUI uses [normalize.css](http://necolas.github.io/normalize.css/) to help make browsers render all elements more consistently and in line with modern standards. it precisely targets only the styles that need normalizing.
+
+
+### Susy
+
+GMRUI uses [Susy](http://susy.oddbird.net/) as its default grid framework. If you do not wish to use this, imply remove `@import 'susy';` from the `_theme.scss` file.
 
 ## Curators
 
