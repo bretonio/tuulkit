@@ -20,13 +20,25 @@ module.exports = function (grunt) {
           style: 'compressed'
         }
       }
+    },
+    // Autoprefixer task config
+    autoprefixer:{
+      dist:{
+        files:{
+          'css/styles.css':'css/styles.css'
+        }
+      }
     }
   });
 
   // Load Tasks
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-autoprefixer');
 
   // Default Task
-  grunt.registerTask('default', ['watch', 'sass']);
+  grunt.registerTask('default', ['watch', 'sass', 'autoprefixer']);
+
+  // Build Task
+  grunt.registerTask('build', ['sass', 'autoprefixer']);
 };
