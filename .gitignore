@@ -1,6 +1,35 @@
+# Ignore Extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*~
+
+# Ignore OS Specific Files
+._*
+.cache
 .DS_Store
+.project
+.settings
+Thumbs.db
+
+# Ignore CodeKit & Sass Cache
 .sass-cache
 /scss/.sass-cache/*
 !/scss/.sass-cache/*
-/css/*
 config.codekit
+
+# Ignore CSS Output
+/css/*
+
+# SCSS-Lint
+scss-lint-report.xml
+
+# Folders to ignore
+bower_components
+node_modules
