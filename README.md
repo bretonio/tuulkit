@@ -1,6 +1,6 @@
 # GMRUI [Documentation](http://gmrui.com)
 
-GMRUI is a Front-End Framework built with [SASS](http://sass-lang.com/). It is curated and maintained by [Matt Litherland](http://twitter.com/mattsince87) and a product of [SINCE87](http://mattsince87.com). We welcome any collaborators to create their own forks and raise issues.
+GMRUI is a [SASS](http://sass-lang.com/) toolkit for ground-up development. It is curated and maintained by [Matt Litherland](http://twitter.com/mattsince87) and a product of [SINCE87](http://mattsince87.com). We welcome any collaborators to create their own forks and raise issues.
 
 * [View Website](http://gmrui.com)
 
@@ -15,18 +15,22 @@ GMRUI can be installed using the **git clone** method or by using **bower**.
 
 We recommend modifying variables such as those contained in `_config.scss` and then overiding default components on a project by project basis.
 
-### Autoprefixer for SASS
-
-GMRUI uses [Autoprefixer](https://github.com/postcss/autoprefixer) to deal with CSS vendor prefixes. If you're compiling GMRUI from its Sass source and not using our full release, you'll need to integrate Autoprefixer into your build process yourself. We use [CodeKit](https://incident57.com/codekit/) by [bdkjones](http://twitter.com/bdkjones).
-
 ### Normalize.css
 
-GMRUI uses [normalize.css](http://necolas.github.io/normalize.css/) to help make browsers render all elements more consistently and in line with modern standards. it precisely targets only the styles that need normalizing.
-
+[Normalize.css](http://necolas.github.io/normalize.css/) helps make browsers render all elements more consistently and in line with modern standards. it precisely targets only the styles that need normalizing.
 
 ### Susy
 
-GMRUI uses [Susy](http://susy.oddbird.net/) as its default grid framework. If you do not wish to use this, imply remove `@import 'susy';` from the `_theme.scss` file.
+[Susy](http://susy.oddbird.net/) is our grid framework of choice. If you do not wish to use this, imply remove `@import 'susy';` from the `_theme.scss` file.
+
+### Grunt
+
+Our build process or development workflow includes the JavaScript Task Runner [Grunt](https://gruntjs.com/) enabling us to automate repetitive tasks such as compiling Sass and applying vender prefixes to our CSS. You can learn more about Grunt in [this useful blog post](http://blog.teamtreehouse.com/getting-started-with-grunt) by Team Treehouse.
+
+### Autoprefixer
+
+We use [Autoprefixer](https://github.com/nDmitry/grunt-autoprefixer) to deal with CSS vendor prefixes. If you're compiling GMRUI from its Sass source you'll need to integrate Autoprefixer into your build process, typically using Grunt.
+
 
 ## Curators
 
