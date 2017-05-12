@@ -1,27 +1,27 @@
-//  GMRUI
+//  Toolkit
 //  Setup 
 //
 
-@import "framework/globals";
-@import "framework/config";
+@import "tools/globals";
+@import "tools/config";
 
 // Mixins
-@import "framework/mixins";
+@import "tools/mixins";
 
 // Layout
-@import "framework/skeleton";
+@import "tools/skeleton";
 
 // Typography
-@import "framework/typography";
+@import "tools/typography";
 
-@import "framework/buttons";
-@import "framework/buttongroup";
+@import "tools/buttons";
+@import "tools/buttongroup";
 
 // Helpers
-@import "framework/breadcrumbs";
-@import "framework/pagination";
-@import "framework/forms";
-@import "framework/switches";
-@import "framework/alerts";
-@import "framework/modals";
-@import "framework/tables";
+@import "tools/breadcrumbs";
+@import "tools/pagination";
+@import "tools/forms";
+@import "tools/switches";
+@import "tools/alerts";
+@import "tools/modals";
+@import "tools/tables";
