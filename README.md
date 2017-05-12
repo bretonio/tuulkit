@@ -1,17 +1,17 @@
-# GMRUI Sass Toolkit
+# Tuulkit
 
-GMRUI is a [SASS](http://sass-lang.com/) toolkit for ground-up development. It is curated and maintained by [Matt Litherland](http://twitter.com/mattsince87) and a product of [SINCE87](http://mattsince87.com). We welcome any collaborators to create their own forks and raise issues.
+Tuulkit is a [SASS](http://sass-lang.com/) toolkit for ground-up development. It is curated and maintained by [Matt Litherland](http://twitter.com/mattsince87) and a product of [SINCE87](http://mattsince87.com). We welcome any collaborators to create their own forks and raise issues.
 
-* [View Website](http://gmrui.com)
+* [View Website](http://tuulkit.io)
 
 ## Getting Started
 
-GMRUI can be installed using the **git clone** method or by using **bower**.
+Tuulkit can be installed using the **git clone** method or by using **bower**.
 
 * `bower install gmrui`
 * `git clone git@github.com:gmrgo/gmrui.git`
 
-### Customising GMRUI
+### Customising Tuulkit
 
 We recommend modifying variables such as those contained in `_config.scss` and then overiding default components on a project by project basis.
 
@@ -29,7 +29,7 @@ Our build process or development workflow includes the JavaScript Task Runner [G
 
 ### Autoprefixer
 
-We use [Autoprefixer](https://github.com/nDmitry/grunt-autoprefixer) to deal with CSS vendor prefixes. If you're compiling GMRUI from its Sass source you'll need to integrate Autoprefixer into your build process, typically using Grunt.
+We use [Autoprefixer](https://github.com/nDmitry/grunt-autoprefixer) to deal with CSS vendor prefixes. If you're compiling Tuulkit from its Sass source you'll need to integrate Autoprefixer into your build process, typically using Grunt.
 
 
 ## Curators
