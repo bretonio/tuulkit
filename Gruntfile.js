@@ -20,9 +20,13 @@ module.exports = function (grunt) {
           style: 'compressed'
         }
       }
-    },
+    }
   });
 
+  // Load Tasks
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
+
+  // Default Task
+  grunt.registerTask('default', ['watch', 'sass']);
 };
