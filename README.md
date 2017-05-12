@@ -1,4 +1,4 @@
-# GMRUI [Documentation](http://gmrui.com)
+# GMRUI Sass Toolkit
 
 GMRUI is a [SASS](http://sass-lang.com/) toolkit for ground-up development. It is curated and maintained by [Matt Litherland](http://twitter.com/mattsince87) and a product of [SINCE87](http://mattsince87.com). We welcome any collaborators to create their own forks and raise issues.
 
