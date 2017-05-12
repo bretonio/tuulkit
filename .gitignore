@@ -9,6 +9,7 @@
 *.vi
 *.zip
 *~
+*.map
 
 # Ignore OS Specific Files
 ._*
@@ -18,7 +19,7 @@
 .settings
 Thumbs.db
 
-# Ignore CodeKit & Sass Cache
+# Ignore CodeKit & Sass Caches
 .sass-cache
 /scss/.sass-cache/*
 !/scss/.sass-cache/*
