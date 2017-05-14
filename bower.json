@@ -1,7 +1,7 @@
 {
   "name": "Tuulkit - Sass Toolkit",
   "version": "2.0.0",
-  "homepage": "https://github.com/gmrgo/tuulkit",
+  "homepage": "https://tuulkit.io",
   "authors": [
     "Matt Litherland http://github.com/mattsince87"
   ],
@@ -9,7 +9,7 @@
     "scss/",
     "script/"
   ],
-  "description": "A Sass toolkit for ground-up development.",
+  "description": "A Sass toolkit for ground up front-end development.",
   "keywords": [
     "css",
     "sass",
