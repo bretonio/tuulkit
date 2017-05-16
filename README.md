@@ -6,7 +6,7 @@ Tuulkit is a Sass toolkit for ground-up development. It is curated and maintaine
 
 * [View Website](http://tuulkit.io)
 
-## Status
+#### Status
 
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
 [![Bower](https://img.shields.io/bower/v/Tuulkit.svg)](https://bower.io/search/?q=Tuulkit)
