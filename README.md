@@ -1,6 +1,6 @@
 # Tuulkit
 
-> A ground-up workflow for Front-End development ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
+> A ground-up workflow for Front-End development
 
 Tuulkit is a [SASS](http://sass-lang.com/) toolkit for ground-up development. It is curated and maintained by [Matt Litherland](http://twitter.com/mattsince87) and a product of [SINCE87](http://mattsince87.com). We welcome any collaborators to create their own forks and raise issues.
 
@@ -8,7 +8,9 @@ Tuulkit is a [SASS](http://sass-lang.com/) toolkit for ground-up development. It
 
 ## Status
 
-
+![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
+[![Slack](https://img.shields.io/badge/Slack-Tuulkit-5c3a58.svg)](https://tuulkit.slack.com/shared_invite/MTgzMzcyMzExMTQwLTE0OTQ3ODU3NDMtNzFlZTkwYzY1Nw)
+[![Github](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/gmrgo/tuulkit.git)
 
 ## Getting Started
 
