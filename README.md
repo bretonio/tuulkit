@@ -29,7 +29,7 @@ Our build process or development workflow includes the JavaScript Task Runner [G
 
 #### Grunt Setup
 
-Our out-the-box Grunt packages and automation process include Sass, Autoprefixer, Local Server and Automatic page refresh. You may use this is your default environment, install by using this command:
+Our out-the-box Grunt packages and automation process include Sass, Autoprefixer, Connect (Local Server) and Live Reload. You may use this is your default environment, install by using this command:
 
 ```
   npm install
