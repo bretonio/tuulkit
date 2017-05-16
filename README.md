@@ -27,6 +27,8 @@ We recommend modifying variables such as those contained in `_config.scss` and t
 
 Our build process or development workflow includes the JavaScript Task Runner [Grunt](https://gruntjs.com/) enabling us to automate repetitive tasks such as compiling Sass and applying vender prefixes to our CSS. You can learn more about Grunt in [this useful blog post](http://blog.teamtreehouse.com/getting-started-with-grunt) by Team Treehouse.
 
+#### Grunt Setup
+
 Our out-the-box Grunt packages and automation process include Sass, Autoprefixer, Local Server and Automatic page refresh. You may use this is your default environment, install by using this command:
 
 ```
