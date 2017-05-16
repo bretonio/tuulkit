@@ -1,44 +1,50 @@
-module.exports = function (grunt) {
+module.exports = function(grunt) {
+
+  // Configuration.
   grunt.initConfig({
-    // Watch task config
-    watch: {
-      sass: {
-        files: "scss/*.scss",
-        tasks: ['sass']
-      }
-    },
-    // SASS task config
     sass: {
-      dev: {
-        files: {
-          // destination      // source file
-          "css/styles.css" : "scss/theme.scss"
-        },
+      dist: {
         options: {
           sourcemap: 'none',
-          check: true,
           style: 'compressed'
+        },
+        files: {
+          'css/styles.css': 'scss/theme.scss'
         }
       }
     },
-    // Autoprefixer task config
     autoprefixer:{
       dist:{
         files:{
           'css/styles.css':'css/styles.css'
         }
       }
+    },
+    connect: {
+      server: {
+        options: {
+          port: 8000
+        }
+      }
+    },
+    watch: {
+      options: {
+        livereload: true,
+      },
+      css: {
+        files: 'scss/*.scss',
+        tasks: ['sass', 'autoprefixer'],
+      }
     }
   });
 
   // Load Tasks
-  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
-  // Default Task
-  grunt.registerTask('default', ['watch', 'sass', 'autoprefixer']);
+  // Default task(s).
+  grunt.registerTask('default', ['connect', 'watch']);
 
-  // Build Task
-  grunt.registerTask('build', ['sass', 'autoprefixer']);
 };
