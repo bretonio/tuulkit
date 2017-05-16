@@ -12,7 +12,7 @@ Tuulkit can be installed using the **git clone** method or by using **bower**.
   bower install tuulkit
 ```
 ```
-git clone git@github.com:gmrgo/tuulkit.git
+  git clone git@github.com:gmrgo/tuulkit.git
 ```
 
 ### Customising Tuulkit
