@@ -6,6 +6,11 @@ Tuulkit is a [SASS](http://sass-lang.com/) toolkit for ground-up development. It
 
 * [View Website](http://tuulkit.io)
 
+## Status
+
+[![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)]
+
+
 ## Getting Started
 
 Tuulkit can be installed using the **git clone** method or by using **bower**.
