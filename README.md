@@ -10,10 +10,10 @@ Tuulkit is a [SASS](http://sass-lang.com/) toolkit for ground-up development. It
 
 Tuulkit can be installed using the **git clone** method or by using **bower**.
 
-```
+```shell
   bower install tuulkit
 ```
-```
+```shell
   git clone git@github.com:gmrgo/tuulkit.git
 ```
 
